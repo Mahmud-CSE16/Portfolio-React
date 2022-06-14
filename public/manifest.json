@@ -1,0 +1,23 @@
+{
+    "name": "Md. Mahmudul Islam | Chief Technical Officer - Prottoy | Full Stack Developer | Mobile App Developer | Flutter Developer | Django Developer",
+    "short_name": "Mahmud",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Chief Technical Officer - Prottoy | Full Stack Developer | Mobile App Developer | Flutter Developer | Django Developer",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/mahmud-min.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/mahmud-min.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
