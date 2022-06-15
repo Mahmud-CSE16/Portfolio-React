@@ -29,17 +29,19 @@ const About = () => {
               <article className="about__card">
                 <FiUsers className='about__icon' />
                 <h5>Clients</h5>
-                <small>15+ Worldwide</small>
+                <small>10+ Worldwide</small>
               </article>
 
               <article className="about__card">
                 <VscFolderLibrary className='about__icon' />
                 <h5>Projects</h5>
-                <small>80+ completed</small>
+                <small>30+ completed</small>
               </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptatibus impedit laboriosam aspernatur accusamus soluta mollitia rerum fugit harum animi eum sint eveniet unde esse iure tenetur repellat natus explicabo.
+            I'm an undergraduate student at Computer Science and Engineering at <a href="http://www.kuet.ac.bd/" target="_blank" rel="noreferrer" > Khulna University of Engineering and Technology</a>. Now, I(we) am fully dedicated to establishing an ed-tech company<a href="https://prottoy.com.bd" target="_blank" rel="noreferrer" > Prottoy </a>in Bangladesh.
+            <br/><br/>
+            I'm fully passionate to develop something new with the latest technology. I have experience developing 20+ Mobile apps and 4+ websites as well as working as a team member and lead the team.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

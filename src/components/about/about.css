@@ -4,6 +4,11 @@
     gap: 15%;
 }
 
+.about__container p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .about__me{
     width: 100%;
     aspect-ratio: 1/1;
