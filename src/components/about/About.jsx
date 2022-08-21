@@ -39,7 +39,7 @@ const About = () => {
               </article>
           </div>
           <p>
-            I'm an undergraduate student at Computer Science and Engineering at <a href="http://www.kuet.ac.bd/" target="_blank" rel="noreferrer" > Khulna University of Engineering and Technology</a>. Now, I(we) am fully dedicated to establishing an ed-tech company<a href="https://prottoy.com.bd" target="_blank" rel="noreferrer" > Prottoy </a>in Bangladesh.
+            I'm a graduate Engineer in Computer Science & Engineering ( from <a href="http://www.kuet.ac.bd/" target="_blank" rel="noreferrer" > Khulna University of Engineering and Technology</a>). Now, I(we) am fully dedicated to establishing an ed-tech company<a href="https://prottoy.com.bd" target="_blank" rel="noreferrer" > Prottoy </a>in Bangladesh.
             <br/><br/>
             I'm fully passionate to develop something new with the latest technology. I have experience developing 20+ Mobile apps and 4+ websites as well as working as a team member and lead the team.
           </p>

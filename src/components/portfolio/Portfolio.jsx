@@ -7,6 +7,8 @@ import GetBetalImg from '../../assets/get_betal.webp'
 import EasytraxWebImg from '../../assets/easytrax-web.webp'
 import EasytraxAppImg from '../../assets/easytrax-app.webp'
 import EasytraxEmailImg from '../../assets/easytrax-email.webp'
+import HidmonaImg from '../../assets/hidmona.png'
+import BCSConfidenceImg from '../../assets/bcs-confidence.png'
 
 
 
@@ -32,11 +34,29 @@ const recentWorkData = [
   {
     id: 3,
     title: "Money Transferring Platform among Countries",
+    category: "Hidmona",
+    image: HidmonaImg,
+    webUrl: "https://hidmona.ch/",
+    androidUrl: "https://play.google.com/store/apps/details?id=com.mahmud.hidmona",
+    iOSUrl: "https://apps.apple.com/ro/app/hidmona-money-transfer/id1629064572?platform=iphone",
+  },
+  {
+    id: 3,
+    title: "BCS Confidence teachers routine management system based on Flutter (Android|Website)",
+    category: "BCS Confidence",
+    image: BCSConfidenceImg,
+    webUrl: "",
+    androidUrl: "",
+    iOSUrl: "",
+  },
+  {
+    id: 3,
+    title: "Money Transferring Platform among Countries",
     category: "GetBetal",
     image: GetBetalImg,
     webUrl: "https://www.getbetal.com/",
     androidUrl: "https://play.google.com/store/apps/details?id=com.getbetal.se",
-    iOSUrl: "https://apps.apple.com/us/app/getbetal-money-transfer/id1573647213",
+    iOSUrl: "https://apps.apple.com/us/app/getbetal-money-transfer/id1573647213?platform=iphone",
   },
   {
     id: 4,
@@ -94,7 +114,8 @@ const Portfolio = () => {
                 <div className="portfolio__item-image">
                   <img src={ image }  alt="" />
                 </div>
-                <h3>{title}</h3>
+                <h3>{category}</h3>
+                <h5>{title}</h5>
                 {webUrl!=="" || androidUrl!=="" || iOSUrl!==""? <div className="portfolio__item-cta">
                   {webUrl !== ""? <a className='btn' href={webUrl} target='_blank' rel="noreferrer">Website</a> : ""}
                   {androidUrl !== ""? <a className='btn' href={androidUrl} target='_blank' rel="noreferrer">Android</a> : ""}
