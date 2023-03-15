@@ -1,6 +1,6 @@
-import React from 'react'
-import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import React from "react";
+import { BsPatchCheckFill } from "react-icons/bs";
+import "./experience.css";
 
 const Experience = () => {
   return (
@@ -12,29 +12,37 @@ const Experience = () => {
         <div className="experience__app">
           <h3>Mobile App Development</h3>
           <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Flutter</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Android</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>iOS</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Google Map</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Custom Design</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Firebase</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
+              <h4>Android Jetpack</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
+              <h4>MVVM</h4>
             </article>
           </div>
         </div>
@@ -42,36 +50,43 @@ const Experience = () => {
         <div className="experience__web">
           <h3>Website Development</h3>
           <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Django</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Reactjs</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
+              <h4>Node.js</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
+              <h4>Next.js</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Javascripts</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Rest API</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Custom Design</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='check-iocn'/>
+            <article className="experience__details">
+              <BsPatchCheckFill className="check-iocn" />
               <h4>Database Design</h4>
             </article>
           </div>
         </div>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
