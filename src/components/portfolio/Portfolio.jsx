@@ -9,6 +9,7 @@ import EasytraxAppImg from "../../assets/easytrax-app.webp";
 import EasytraxEmailImg from "../../assets/easytrax-email.webp";
 import HidmonaImg from "../../assets/hidmona.png";
 import ZatiqImg from "../../assets/zatiq.jpeg";
+import ZatiqEasyImg from "../../assets/zatiqeasy.jpeg";
 import BoomImg from "../../assets/boom.jpeg";
 import MyCashImg from "../../assets/mycash.jpeg";
 import StartWithFiveImg from "../../assets/startwithfive.jpeg";
@@ -17,15 +18,6 @@ import BCSConfidenceImg from "../../assets/bcs-confidence.png";
 const recentWorkData = [
   {
     id: 1,
-    title: "Interactive Learning Platform in Bangladesh",
-    category: "Prottoy",
-    image: ProttoyImg,
-    webUrl: "https://prottoy.com.bd",
-    androidUrl: "https://play.google.com/store/apps/details?id=bd.com.prottoy",
-    iOSUrl: "",
-  },
-  {
-    id: 2,
     title: "Building the Fintech Ecosystem of Bangladesh",
     category: "Zatiq Ltd",
     image: ZatiqImg,
@@ -35,27 +27,15 @@ const recentWorkData = [
   },
   {
     id: 2,
-    title: "Grocery Shopping App in Canada",
-    category: "Ongrocery",
-    image: OngroceryImg,
-    webUrl: "https://www.ongrocery.com/",
-    androidUrl:
-      "https://play.google.com/store/apps/details?id=com.zatiq.expresscart",
-    iOSUrl: "https://apps.apple.com/us/app/expresscart/id1522292588",
+    title: "Zatiq Easy - eCommerce Builder",
+    category: "Zatiq Ltd",
+    image: ZatiqEasyImg,
+    webUrl: "https://zatiqeasy.com/",
+    androidUrl: "https://play.google.com/store/apps/details?id=com.zatiq.easybill&hl=en",
+    iOSUrl: "https://apps.apple.com/us/app/zatiq-easy-ecommerce-builder/id6463710574",
   },
   {
-    id: 2,
-    title: "Start With Five - Real Estate Investing",
-    category: "Start With Five LLC",
-    image: StartWithFiveImg,
-    webUrl: "https://www.startwithfiveapp.com/",
-    androidUrl:
-      "https://play.google.com/store/apps/details?id=com.startwithfive.app",
-    iOSUrl:
-      "https://apps.apple.com/us/app/start-with-five-investing/id6446306183",
-  },
-  {
-    id: 2,
+    id: 3,
     title: "MyCash is modern Mobile based Money Transfer system with Amtel Ltd",
     category: "Amtel Ltd",
     image: MyCashImg,
@@ -65,7 +45,7 @@ const recentWorkData = [
     iOSUrl: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "Money Transferring Platform among Countries",
     category: "Hidmona",
     image: HidmonaImg,
@@ -76,7 +56,37 @@ const recentWorkData = [
       "https://apps.apple.com/ro/app/hidmona-money-transfer/id1629064572?platform=iphone",
   },
   {
-    id: 3,
+    id: 5,
+    title: "Interactive Learning Platform in Bangladesh",
+    category: "Prottoy",
+    image: ProttoyImg,
+    webUrl: "https://prottoy.com.bd",
+    androidUrl: "https://play.google.com/store/apps/details?id=bd.com.prottoy",
+    iOSUrl: "",
+  },
+  {
+    id: 6,
+    title: "Grocery Shopping App in Canada",
+    category: "Ongrocery",
+    image: OngroceryImg,
+    webUrl: "https://www.ongrocery.com/",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.zatiq.expresscart",
+    iOSUrl: "https://apps.apple.com/us/app/expresscart/id1522292588",
+  },
+  {
+    id: 7,
+    title: "Start With Five - Real Estate Investing",
+    category: "Start With Five LLC",
+    image: StartWithFiveImg,
+    webUrl: "https://www.startwithfiveapp.com/",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.startwithfive.app",
+    iOSUrl:
+      "https://apps.apple.com/us/app/start-with-five-investing/id6446306183",
+  },
+  {
+    id: 8,
     title: "Boom - Find your buyers",
     category: "Boom",
     image: BoomImg,
@@ -85,7 +95,7 @@ const recentWorkData = [
     iOSUrl: "https://apps.apple.com/us/app/boom-find-your-buyers/id1668120325",
   },
   {
-    id: 3,
+    id: 9,
     title:
       "BCS Confidence teachers routine management system based on Flutter (Android|Website)",
     category: "BCS Confidence",
@@ -95,7 +105,7 @@ const recentWorkData = [
     iOSUrl: "",
   },
   {
-    id: 3,
+    id: 10,
     title: "Money Transferring Platform among Countries",
     category: "GetBetal",
     image: GetBetalImg,
@@ -105,7 +115,7 @@ const recentWorkData = [
       "https://apps.apple.com/us/app/getbetal-money-transfer/id1573647213?platform=iphone",
   },
   {
-    id: 4,
+    id: 11,
     title: "Easytrax GPS Tracking",
     category: "EasyTrax",
     image: EasytraxAppImg,
@@ -116,7 +126,7 @@ const recentWorkData = [
       "https://apps.apple.com/us/app/easytrax-gps-tracking-pro/id1543232436?platform=iphone",
   },
   {
-    id: 5,
+    id: 12,
     title: "Practice App for Business Analysis Course",
     category: "Simplex",
     image: SimplexImg,
@@ -126,7 +136,7 @@ const recentWorkData = [
     iOSUrl: "",
   },
   {
-    id: 6,
+    id: 13,
     title: "Website Front End Development by HTML, CSS & JavaScript",
     category: "Easytrax",
     image: EasytraxWebImg,
@@ -135,7 +145,7 @@ const recentWorkData = [
     iOSUrl: "",
   },
   {
-    id: 7,
+    id: 14,
     title: "Email Template by HTML, CSS & JavaScript",
     category: "Easytrax",
     image: EasytraxEmailImg,
