@@ -14,16 +14,17 @@ import BoomImg from "../../assets/boom.jpeg";
 import MyCashImg from "../../assets/mycash.jpeg";
 import StartWithFiveImg from "../../assets/startwithfive.jpeg";
 import BCSConfidenceImg from "../../assets/bcs-confidence.png";
+import MyMaraneoImage from "../../assets/mymaraneo.jpeg";
 
 const recentWorkData = [
   {
     id: 1,
-    title: "Building the Fintech Ecosystem of Bangladesh",
-    category: "Zatiq Ltd",
-    image: ZatiqImg,
-    webUrl: "https://zatiq.com/",
-    androidUrl: "",
-    iOSUrl: "",
+    title: "My Maraneo is a Mediterranean meal planning app",
+    category: "My Maraneo",
+    image: MyMaraneoImage,
+    webUrl: "https://mymaraneo.com/",
+    androidUrl: "https://play.google.com/store/apps/details?id=com.mymaraneo",
+    iOSUrl: "https://apps.apple.com/us/app/my-maraneo-meal-planner/id6736566423?platform=iphone",
   },
   {
     id: 2,
@@ -39,10 +40,10 @@ const recentWorkData = [
     title: "MyCash is modern Mobile based Money Transfer system with Amtel Ltd",
     category: "Amtel Ltd",
     image: MyCashImg,
-    webUrl: "",
+    webUrl: "http://amtelkom.com/",
     androidUrl:
-      "https://play.google.com/store/apps/details?id=com.amtel.mycash.subscriber",
-    iOSUrl: "",
+      "https://play.google.com/store/apps/details?id=com.amtel.mycash.subscriber.live&hl=enr",
+    iOSUrl: "https://apps.apple.com/us/app/mycash-subscriber/id1500234077?platform=iphone",
   },
   {
     id: 4,
@@ -63,6 +64,17 @@ const recentWorkData = [
     webUrl: "https://prottoy.com.bd",
     androidUrl: "https://play.google.com/store/apps/details?id=bd.com.prottoy",
     iOSUrl: "",
+  },
+  {
+    id: 11,
+    title: "Easytrax GPS Tracking",
+    category: "EasyTrax",
+    image: EasytraxAppImg,
+    webUrl: "https://www.easytrax.com.bd/",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.bd.easytraxstandard&hl=en",
+    iOSUrl:
+      "https://apps.apple.com/us/app/easytrax-gps-tracking-pro/id1543232436?platform=iphone",
   },
   {
     id: 6,
@@ -113,17 +125,6 @@ const recentWorkData = [
     androidUrl: "https://play.google.com/store/apps/details?id=com.getbetal.se",
     iOSUrl:
       "https://apps.apple.com/us/app/getbetal-money-transfer/id1573647213?platform=iphone",
-  },
-  {
-    id: 11,
-    title: "Easytrax GPS Tracking",
-    category: "EasyTrax",
-    image: EasytraxAppImg,
-    webUrl: "https://www.easytrax.com.bd/",
-    androidUrl:
-      "https://play.google.com/store/apps/details?id=com.bd.pro.easytraxstandard",
-    iOSUrl:
-      "https://apps.apple.com/us/app/easytrax-gps-tracking-pro/id1543232436?platform=iphone",
   },
   {
     id: 12,

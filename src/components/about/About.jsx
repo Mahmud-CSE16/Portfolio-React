@@ -23,25 +23,25 @@ const About = () => {
             <article className="about__card">
                 <FaAward className='about__icon' />
                 <h5>Experience</h5>
-                <small>3+ Years Working</small>
+                <small>5+ Years Working</small>
               </article>
 
               <article className="about__card">
                 <FiUsers className='about__icon' />
                 <h5>Clients</h5>
-                <small>10+ Worldwide</small>
+                <small>13+ Worldwide</small>
               </article>
 
               <article className="about__card">
                 <VscFolderLibrary className='about__icon' />
                 <h5>Projects</h5>
-                <small>30+ completed</small>
+                <small>40+ completed</small>
               </article>
           </div>
           <p>
-            I'm a graduate Engineer in Computer Science & Engineering ( from <a href="http://www.kuet.ac.bd/" target="_blank" rel="noreferrer" > Khulna University of Engineering and Technology</a>). Now, I(we) am fully dedicated to establishing an ed-tech company<a href="https://prottoy.com.bd" target="_blank" rel="noreferrer" > Prottoy </a>in Bangladesh.
+            I’m a Full Stack Engineer with a passion for building modern and user-friendly solutions. I have experience developing 20+ mobile apps and 20+ websites. I'm skilled in multiple programming languages and have worked both as a team member and a team lead on various projects.
             <br/><br/>
-            I'm fully passionate to develop something new with the latest technology. I have experience developing 20+ Mobile apps and 4+ websites as well as working as a team member and lead the team.
+            I'm a graduate Engineer in Computer Science & Engineering ( from <a href="http://www.kuet.ac.bd/" target="_blank" rel="noreferrer" > Khulna University of Engineering and Technology</a>).
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
